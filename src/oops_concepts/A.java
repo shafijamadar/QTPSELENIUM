@@ -12,7 +12,7 @@ public class A {
 			o[3]=23;
 			o[1]=20;
 			}catch(Exception e){
-				System.out.println("The message is" +e.getMessage());
+				System.out.println("The message is " +e.getMessage());
 			e.printStackTrace();
 			}
 		finally{

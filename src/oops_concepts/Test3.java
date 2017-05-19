@@ -3,7 +3,8 @@ package oops_concepts;
 public class Test3 {
 	
 		public static void main(String[] args) {
-		A1 obj=null;
+		A1 obj=new A1();
+		obj=null;
 		try{
 		obj.parent();
 		System.out.println("success");
